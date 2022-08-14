@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    padding: 25px;
+    padding: 20px;
     color: white;
+    min-width: 340px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("images/background.jpg");
     background-repeat: no-repeat;
@@ -12,7 +13,7 @@ body {
 
 header, main, form, #output {
     max-width: 600px;
-    min-width: 320px;
+    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
