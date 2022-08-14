@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(30px);
+}
+
+header, main, form, #output {
+    max-width: 600px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+header, main, #output {
+    background-color: #00000088;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
+
+header p:last-of-type {
+    margin: 0;
+    font-size: 14px;
+}
+
+header p a {
+    color: gold;
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.field {
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 135px;
+    text-align: right;
+}
+
+label::after {
+    content: " %:";
+}
+
+input[type="number"] {
+    width: 120px;
+}
+
+button[type="none"] {
+    display: block;
+    margin: 15px auto;
+    border: #00000088;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+button[type="none"]:hover {
+    background-color: #fffd8777;
+    cursor: pointer;
+}
+
+#output {
+    font-size: 24px;
+}

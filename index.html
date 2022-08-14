@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Predictive Tool</title>
+</head>
+<body>
+
+<!-- Heading Part -->
+<header>
+    <h1>Steel Properties Predictor</h1>
+    <p>By <a href="https://www.linkedin.com/in/thrivedh-guntreddi-696a25183/">@trivedh</a></p>
+    <p>Predict the tensile strength of steel based on its composition</p>
+</header>
+<main>
+    <form>
+        <div class="field">
+        <label for="Carbon_composition">Carbon</label>
+        <input type="number" id="Carbon_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Manganese_composition">Manganese</label>
+        <input type="number" id="Manganese_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Sulfur_composition">Sulfur</label>
+        <input type="number" id="Sulfur_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Chromium_composition">Chromium</label>
+        <input type="number" id="Chromium_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Copper_composition">Copper</label>
+        <input type="number" id="Copper_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Aluminum_composition">Aluminum</label>
+        <input type="number" id="Aluminum_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Silicon_composition">Silicon</label>
+        <input type="number" id="Silicon_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Phosphorous_composition">Phosphonus</label>
+        <input type="number" id="Phosphorus_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Nickel_composition">Nickel</label>
+        <input type="number" id="Nickel_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Molybdenum_composition">Molybdenum</label>
+        <input type="number" id="Molydebnum_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Vanadium_composition">Vanadium</label>
+        <input type="number" id="Vanadium_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Nitrogen_composition">Nitrogen</label>
+        <input type="number" id="Nitrogen_composition" placeholder="" min="" max="" required>
+        </div>
+
+        <div class="field">
+        <label for="Temperature">Temperature</label>
+        <input type="number" id="Temeperature" placeholder="" min="" max="" required>
+        </div>
+
+        <button type="none" id="btn">Predict</button>
+    </form>
+</main>
+<div id="output">
+    Tensile Strength: <span id="val">-</span> MPa
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
